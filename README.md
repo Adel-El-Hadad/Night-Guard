@@ -31,17 +31,7 @@ After Sprint 1, Hardware Team will join the software team, because all the hardw
 2. Jaskirat Kaur (Minutes Handler) 
 3. Niveeshan Nadarajah (Submission Manager)
 
-##Sprints
-### First Sprint
-#### Epics To Be Delivered
-1. E1: Patient Phone Alarm Triggered Upon Urine Detection
-2. E2: Caregiver Phone Alarm Triggered When Patients' Alarm Not Off After X Minutes.
-#### Pages Required
-1. Signup Page
-2. Login Page
-3. Home Page
-4. Settings Page
-   a. Caregiver Settings
+
    
  
 
