@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangeRewardsActivity"
+    android:orientation="vertical"
+    android:background="@color/secondaryColor"
+    android:gravity="center|top"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Reward"
+        android:textSize="40sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/primaryColor"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/baseline_add_a_photo_24"
+        android:id="@+id/Img_newPrize"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="1"
+        android:hint="Reward Level To Add / Change (1 to 5)"
+        android:textColorHint="@color/hintColor"
+        android:textColor="@color/primaryColor"
+        android:backgroundTint="@color/primaryColor"
+        android:id="@+id/et_rewardLvlChange"/>
+
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:id="@+id/change_rewards_progress_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingHorizontal="30dp"
+        android:layout_marginTop="30dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/greyroundedbutton"
+            android:textColor="@color/primaryColor"
+            android:text="Back"
+            android:textSize="20sp"
+            android:id="@+id/btn_back_change_reward"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/primaryroundedbutton"
+            android:textColor="@color/secondaryColor"
+            android:text="Add / Change"
+            android:textSize="20sp"
+            android:id="@+id/btn_add_change_reward"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

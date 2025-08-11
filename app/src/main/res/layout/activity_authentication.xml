@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".AuthenticationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/secondaryColor">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Are you a new user?"
+            android:textSize="24dp"
+            android:textColor="@color/primaryColor"
+            android:gravity="top|center"
+            android:layout_marginTop="100dp"
+            android:id="@+id/TextViewnew"/>
+
+        <Button
+            android:id="@+id/btn_auth_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextViewnew"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-180dp"
+            android:gravity="center"
+            android:background="@color/primaryColor"
+            android:textColor="@color/secondaryColor"
+            android:text="Sign up" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextViewnew"
+            android:layout_marginTop="-78dp"
+            android:layout_marginLeft="40dp"
+            android:gravity="left"
+            android:text="Night"
+            android:paddingLeft="10dp"
+            android:textColor="#004164"
+            android:textSize="50dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/primaryColor">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="I am a current user."
+            android:textSize="24dp"
+            android:textColor="@color/secondaryColor"
+            android:gravity="center"
+            android:id="@+id/TextViewcur"/>
+
+        <Button
+            android:id="@+id/btn_auth_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextViewcur"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-142dp"
+            android:gravity="center"
+            android:background="@color/secondaryColor"
+            android:textColor="@color/primaryColor"
+            android:text="Login" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextViewcur"
+            android:layout_marginTop="-320dp"
+            android:layout_marginRight="40dp"
+            android:gravity="right"
+            android:text="Guard"
+            android:paddingRight="10dp"
+            android:textColor="@color/secondaryColor"
+            android:textSize="50dp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FluidReminderActivity"
+    android:orientation="vertical"
+    android:background="@color/secondaryColor"
+    android:gravity="center"
+    android:padding="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:src="@drawable/fluid_reminder"
+            android:layout_marginBottom="30dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It is important to drink plenty of fluids spread evenly throughout the day. By activating the Fluid Reminder Feature, you will receive a notification every 2 hours to drink water."
+            android:textColor="@color/primaryColor"
+            android:textSize="18sp"
+            android:layout_marginBottom="25dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingHorizontal="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Fluid Reminder"
+                android:layout_weight="3"
+                android:textColor="@color/primaryColor"
+                android:textSize="25sp"
+                />
+
+            <Switch
+                android:id="@+id/switch_fluid_reminder"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:theme="@style/ColorSwitchStyle"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose your sleeping time, at which will receive reminder notifications:"
+            android:textColor="@color/primaryColor"
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="back"
+                android:textSize="20dp"
+                android:background="@drawable/greyroundedbutton"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="10dp"
+                android:id="@+id/btn_fluid_reminder_back"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Save"
+                android:textSize="20dp"
+                android:background="@drawable/primaryroundedbutton"
+                android:textColor="@color/secondaryColor"
+                android:layout_marginRight="10dp"
+                android:id="@+id/btn_fluid_reminder_save"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

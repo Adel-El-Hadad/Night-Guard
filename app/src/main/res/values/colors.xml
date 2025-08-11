@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#FF00416A</color>
+    <color name="secondaryColor">#FFfff7ec</color>
+    <color name="hintColor">#FF808080</color>
+    <color name="notActiveColor">#FF808080</color>
+    <color name="greyColor">#FFa8aaad</color>
+    <color name="redColor">#FFD22B2B</color>
+    <color name="greenColor">#FF097969</color>
+    <color name="goldColor">#FFffcd40</color>
+
+
+</resources>

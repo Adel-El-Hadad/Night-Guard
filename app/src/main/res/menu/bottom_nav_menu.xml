@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Home"
+    android:icon="@drawable/baseline_house_24"
+    android:id="@+id/nav_bar_home"/>
+
+ <item android:title="Tracking"
+     android:icon="@drawable/baseline_stacked_line_chart_24"
+     android:id="@+id/nav_bar_tracking"/>
+<item
+    android:title="Settings"
+    android:icon="@drawable/baseline_app_settings_alt_24"
+    android:id="@+id/nav_bar_settings"/>
+<item
+    android:title="Rewards"
+    android:icon="@drawable/baseline_monetization_on_24"
+    android:id="@+id/nav_bar_rewards"/>
+ <item
+     android:title="Profile"
+     android:icon="@drawable/baseline_person_2_24"
+     android:id="@+id/nav_bar_profile"/>
+</menu>

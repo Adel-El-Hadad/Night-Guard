@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondaryColor"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".OpenTreasureActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/treasure" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Level x Treasure"
+            android:textColor="@color/goldColor"
+            android:textSize="35dp"
+            android:id="@+id/tv_level_x_treasure"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Pay x Keys"
+            android:textColor="@color/goldColor"
+            android:textSize="25sp"
+            android:id="@+id/tv_pay_x_keys"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="Are you sure that you want to open the following treaure?"
+            android:textColor="@color/primaryColor"
+            android:textSize="20sp" />
+
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone"
+            android:id="@+id/open_treasure_progress_bar"/>
+
+        <Button
+            android:id="@+id/btn_open_treasure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/greenroundedbutton"
+            android:text="Open Treasure"
+            android:textColor="@color/secondaryColor"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_open_treasure_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/greyroundedbutton"
+            android:text="Back"
+            android:textColor="@color/primaryColor"
+            android:textSize="25sp" />
+    </LinearLayout>
+</ScrollView>

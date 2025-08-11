@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rewards"
+            android:textColor="@color/primaryColor"
+            android:textSize="50sp" />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Keys: "
+                android:textSize="35sp"
+                android:textColor="@color/primaryColor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/goldColor"
+                android:textSize="35sp"
+                android:id="@+id/tv_currentKeys"
+                android:layout_marginRight="10dp"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/key"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primaryColor"
+            android:background="@drawable/goldroundedbutton"
+            android:text="Change Rewards"
+            android:paddingHorizontal="20dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:id="@+id/btn_changeRewards"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Click on Prize to Redeem it."
+            android:textColor="@color/hintColor"
+            android:textSize="20sp"
+            android:id="@+id/tv_clickOnPrize"/>
+
+        <!--        Level 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 1"
+            android:textColor="@color/primaryColor"
+            android:textSize="35sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/redeemed"
+                android:id="@+id/redeemed_lvl1"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/img_lvl_1"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/empty_treasure" />
+
+            <TextView
+                android:id="@+id/tv_lvl1_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textSize="30sp"
+                android:textColor="@color/redColor"
+                android:layout_marginRight="5dp"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/key"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <!--        Level 2-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 2"
+            android:textColor="@color/primaryColor"
+            android:textSize="35sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/redeemed"
+                android:id="@+id/redeemed_lvl2"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/img_lvl_2"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/empty_treasure" />
+
+            <TextView
+                android:id="@+id/tv_lvl2_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textSize="30sp"
+                android:textColor="@color/redColor"
+                android:layout_marginRight="5dp"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/key"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+        <!--        Level 3-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 3"
+            android:textColor="@color/primaryColor"
+            android:textSize="35sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/redeemed"
+                android:id="@+id/redeemed_lvl3"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/img_lvl_3"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/empty_treasure" />
+
+            <TextView
+                android:id="@+id/tv_lvl3_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:textSize="30sp"
+                android:textColor="@color/redColor"
+                android:layout_marginRight="5dp"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/key"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+        <!--        Level 4-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 4"
+            android:textColor="@color/primaryColor"
+            android:textSize="35sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/redeemed"
+                android:id="@+id/redeemed_lvl4"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/img_lvl_4"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/empty_treasure" />
+
+            <TextView
+                android:id="@+id/tv_lvl4_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11"
+                android:textSize="30sp"
+                android:textColor="@color/redColor"
+                android:layout_marginRight="5dp"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/key"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+        <!--        Level 5-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 5"
+            android:textColor="@color/primaryColor"
+            android:textSize="35sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/redeemed"
+                android:id="@+id/redeemed_lvl5"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/img_lvl_5"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/empty_treasure" />
+
+            <TextView
+                android:id="@+id/tv_lvl5_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14"
+                android:textSize="30sp"
+                android:textColor="@color/redColor"
+                android:layout_marginRight="5dp"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/key"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </LinearLayout>
+</ScrollView>

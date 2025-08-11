@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="25dp"
+                android:text="Nocturnal Enuresis"
+                android:textColor="@color/primaryColor" />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/medical_advices" />
+
+<!--        What causes bed wetting-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textSize="25sp"
+                android:text="What causes bedwetting?"
+                android:textStyle="italic|bold"
+                android:textColor="@color/primaryColor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:text="1. Genetic tendency (bedwetting tends to run in families) \n\n 2. A smallish bladder capacity \n\n 3.The child is a deep sleeper(more common) \n\n -- Children have little control or awareness when they are having accidents overnight."
+                android:textColor="@color/primaryColor" />
+<!--            First Stages-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textSize="25sp"
+                android:text="First stages of treatment."
+                android:textStyle="italic|bold"
+                android:textColor="@color/primaryColor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:lineHeight="30sp"
+                android:text="As mentioned above, patients have little awareness when they are having accidents at night. This is why patients will suffer hearing the alarm at the beginning of the treatment. So Night Guard app recommends to use CAREGIVER Alarm feature that trigger the caregiver phone alarm as well. So the caregiver can help the patient to wake up. "
+                android:textColor="@color/primaryColor" />
+
+            <!--            UDS Reminder-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textSize="25sp"
+                android:text="UDS Device Reminder."
+                android:textStyle="italic|bold"
+                android:textColor="@color/primaryColor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:lineHeight="30sp"
+                android:text="Consistency is the most important factor in the treatment process. Night Guard offers UDS (Urine Detection Sensor) Reminder, that sends notification to remind the patient to wear the device before sleeping. It is really important to know that once the patient is dry for 14 consecutive dry days, the treatment has almost succeeded."
+                android:textColor="@color/primaryColor" />
+
+            <!--            Drinking Fluids-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textSize="25sp"
+                android:text="Drinking Fluids."
+                android:textStyle="italic|bold"
+                android:textColor="@color/primaryColor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:lineHeight="30sp"
+                android:text="It is important for the patient to drink plenty of fluids spread evenly throughout the day. Don't try to restrict the amount of fluid your child drinks in the evening, as this will not help and can even delay the process of being dry at night. However, don't give drinks containing caffeine (coffee, tea, hot chocolate, caffeinated soft-drinks like cola etc.) late at night."
+                android:textColor="@color/primaryColor" />
+            <!--            Motivation-->
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/rewards" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textSize="25sp"
+                android:text="Motivation and Rewards System."
+                android:textStyle="italic|bold"
+                android:textColor="@color/primaryColor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:lineHeight="30sp"
+                android:text="Motivational therapy for bedwetting uses praise, encouragement, and rewards to help a child gain bladder control. It's about telling children that they have control of their bodies and encouraging them to take steps that bring about more and more dry nights. For best results, keep a record of your child's progress.Motivation is important in the treatment process.\n\n Night Guard offers a great rewarding system between CAREGIVER and PATIENT using consecutive dry days to exchange for rewards. Such technology helps the patient to boost in the treatment process "
+                android:textColor="@color/primaryColor" />
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
